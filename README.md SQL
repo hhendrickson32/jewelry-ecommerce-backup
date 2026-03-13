@@ -1,0 +1,31 @@
+# Jewelry Store Ecommerce Database
+
+This project contains a MySQL relational database for an ecommerce jewelry website.
+
+## Database Tables
+
+Customers – stores customer information  
+Products – jewelry items available for purchase  
+Orders – customer purchase records  
+Shipping – shipping information for orders  
+Authentication – login credentials for customers  
+
+## Sample Data
+
+The database includes:
+
+- 5 customers
+- 5 products
+- Orders connected to customers and products
+- Shipping records
+- Authentication accounts for each customer
+
+## How to Run
+
+Import the SQL file into MySQL.
+
+Example:
+
+CREATE DATABASE jewelry_store;
+USE jewelry_store;
+SOURCE ecommerce_database.sql;
