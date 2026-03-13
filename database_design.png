@@ -1,0 +1,24 @@
+Customers
+   │
+   │ customer_id
+   ▼
+Orders
+   │
+   ├── product_id → Products
+   └── order_id → Shipping
+
+Authentication
+   │
+   └── customer_id → Customers
+jewelry-website
+│
+├── database
+│   ├── ecommerce_database.sql
+│   └── database_design.png
+│
+├── README.md
+├── index.html
+└── other website files
+git add .
+git commit -m "Added ecommerce MySQL database"
+git push
