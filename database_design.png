@@ -1,24 +1,28 @@
-Customers
-   │
-   │ customer_id
-   ▼
-Orders
-   │
-   ├── product_id → Products
-   └── order_id → Shipping
-
-Authentication
-   │
-   └── customer_id → Customers
-jewelry-website
+hillary-jewelry-boutique/
 │
-├── database
+├── index.php
+├── catalog.php
+├── cart.php
+├── checkout.php
+├── order-confirmation.php
+├── login.php
+├── login-process.php
+├── register.php
+├── register-process.php
+├── header.php
+├── footer.php
+├── style.css
+├── README.md
+│
+├── images/
+│   ├── necklace.jpg
+│   ├── ring.jpg
+│   ├── bracelet.jpg
+│   ├── earrings.jpg
+│   └── pendant.jpg
+│
+├── database/
 │   ├── ecommerce_database.sql
 │   └── database_design.png
 │
-├── README.md
-├── index.html
-└── other website files
-git add .
-git commit -m "Added ecommerce MySQL database"
-git push
+└── .gitignore
