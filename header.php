@@ -17,9 +17,9 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="catalog.php">Catalog</a></li>
             <li><a href="cart.php">Cart</a></li>
+            <li><a href="checkout.php">Checkout</a></li>
             <li><a href="login.php">Login</a></li>
             <li><a href="register.php">Register</a></li>
-            <li><a href="checkout.php">Checkout</a></li>
         </ul>
     </nav>
 </header>
