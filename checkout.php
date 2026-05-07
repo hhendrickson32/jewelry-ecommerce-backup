@@ -4,14 +4,17 @@
 
 <form action="order-confirmation.php" method="post">
 
-    <label>Full Name:</label>
-    <input type="text" name="fullname" required><br><br>
+    <label>Full Name</label>
+    <input type="text" name="fullname" required>
 
-    <label>Shipping Address:</label>
-    <input type="text" name="address" required><br><br>
+    <label>Email Address</label>
+    <input type="email" name="email" required>
 
-    <label>Credit Card Number:</label>
-    <input type="password" name="cardnumber" required><br><br>
+    <label>Shipping Address</label>
+    <input type="text" name="address" required>
+
+    <label>Credit Card Number</label>
+    <input type="password" name="cardnumber" required>
 
     <input type="submit" value="Place Order">
 
